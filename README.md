@@ -29,7 +29,7 @@ published by the Free Software Foundation, either version 3 of the License, or
 
   
 ## Dev
-   <a href="https://t.me/HlHI_4"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
-✗ ¦ ↱𝐺𝑜𝑙 𝐷. 𝑅𝑜𝑔𝑒𝑟↲ ¦ ✗ 𐇮
+   <a href="https://t.me/HlHI4"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
+✗ ¦ ↱ᎮᏒ 7ᎦᎧ↲ ¦ ✗ 𐇮
 
 
