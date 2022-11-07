@@ -1,0 +1,88 @@
+{
+  "name": "سورس كيبثون ",
+  "description": "اللهم صلِ على محمد وآل محمد",
+  "logo": "https://telegra.ph/file/3c94ca5689657533c86e9.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/rogerpq/ZQ_LO/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": " ضع اسم التلكرام ",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "ضع الايبي ايدي 8 ارقام الخـاص بـك", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": " ضع الايبي هاش الخاص بك",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لاتغير شي",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لاتغير شي",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود كود تيرمكس الخاص بك",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "هنا ضع معرف بوتك بدون @",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "Rep",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
